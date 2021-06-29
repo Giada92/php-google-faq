@@ -84,7 +84,7 @@
             <?php foreach ($lista as $domande_risposte) {//var_dump($domande_risposte); ?>
                 <section>
                     <h4><?= $domande_risposte["domanda"]; ?></h4>
-                    <?php foreach ($domande_risposte["risposte"] as $key => $text) { ; ?>
+                    <?php foreach ($domande_risposte["risposte"] as $text) { ; ?>
                         <p><?= $text ; ?></p>
                     <?php } ?>
                 </section>
